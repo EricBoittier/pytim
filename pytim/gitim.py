@@ -57,7 +57,7 @@ J. Chem. Phys. 138, 044110, 2013)*
         :param bool biggest_cluster_only: Tag as surface atoms/molecules only
                                     those in the largest cluster. Need to
                                     specify also a :py:obj:`cluster_cut` value.
-        :param float surface_cluster_cut: Filter surface atoms/molecules 
+        :param float surface_cluster_cut: Filter surface atoms/molecules
                                     to include only those in the largest cluster
                                     of (initially detected) surface ones. Useful
                                     to filter out cavitating bubbles.
