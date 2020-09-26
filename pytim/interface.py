@@ -146,7 +146,7 @@ class Interface(object):
             self.symmetry = symmetry
 
     def _filter_biggest_surface_cluster(self, group, cut):
-        labels,counts,neighs = utilities.do_cluster_analysis_dbscan(
+        labels, counts, neighs = utilities.do_cluster_analysis_dbscan(
                 group, cut,
                 molecular=False)
         return group[np.where(labels == np.argmax(counts))[0]]
