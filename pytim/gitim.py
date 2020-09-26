@@ -58,9 +58,9 @@ J. Chem. Phys. 138, 044110, 2013)*
                                     those in the largest cluster. Need to
                                     specify also a :py:obj:`cluster_cut` value.
         :param float surface_cluster_cut: Filter surface atoms/molecules
-                                    to include only those in the largest cluster
-                                    of (initially detected) surface ones. Useful
-                                    to filter out cavitating bubbles.
+                                    to include only those in the largest
+                                    cluster of (initially detected) surface 
+                                    ones. 
                                     (default: None disables the filtering)
         :param str symmetry:        Gives the code a hint about the topology
         :param str symmetry:        Gives the code a hint about the topology
